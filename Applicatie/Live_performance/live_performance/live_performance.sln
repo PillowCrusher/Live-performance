@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "live_performance", "live_performance\live_performance.csproj", "{AF610412-15FF-4B7E-9F0B-E093BB3898BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "live_performance.Tests", "live_performance.Tests\live_performance.Tests.csproj", "{0884C085-77C2-4050-A4C3-7308A93AE2EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF610412-15FF-4B7E-9F0B-E093BB3898BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF610412-15FF-4B7E-9F0B-E093BB3898BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF610412-15FF-4B7E-9F0B-E093BB3898BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF610412-15FF-4B7E-9F0B-E093BB3898BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0884C085-77C2-4050-A4C3-7308A93AE2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0884C085-77C2-4050-A4C3-7308A93AE2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0884C085-77C2-4050-A4C3-7308A93AE2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0884C085-77C2-4050-A4C3-7308A93AE2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

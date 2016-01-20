@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Live_Performance.master.cs" Inherits="live_performance.Live_Performance" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Life Performance</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <asp:PlaceHolder runat="server" ID="navbar">  
+            <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a id="nav1" runat="server">test</a></li>
+                <li><a id="A1" runat="server">asdf</a></li>
+            </ul>
+        </div>
+
+        </asp:PlaceHolder>
+      
+    </nav>
+    <div class="container body-content">
+            <asp:ContentPlaceHolder runat="server" ID="Test">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    </form>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+
+</body>
+</html>
